@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<!-- SITE TITTLE -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Teltec</title>
+
+	<!-- PLUGINS CSS STYLE -->
+	<!-- Bootstrap -->
+    <link href="plugins/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<!-- themify icon -->
+	<link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+	<!-- Owl Carousel -->
+	<link href="plugins/owl-carousel/assets/owl.carousel.min.css" rel="stylesheet" media="screen">
+	<!-- Owl Carousel Theme -->
+	<link href="plugins/owl-carousel/assets/owl.theme.green.min.css" rel="stylesheet" media="screen">
+	<!-- Fancy Box -->
+	<link href="plugins/fancybox/jquery.fancybox.min.css" rel="stylesheet">
+	<!-- AOS -->
+	<link rel="stylesheet" href="plugins/aos/aos.css">
+
+	<!-- CUSTOM CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+	<!-- FAVICON -->
+	<link href="images/favicon.ico" rel="shortcut icon">
+
+	<style>
+		@media (max-width:625px) {
+		.banner-text {
+			/* font-weight: 700; */
+			font-size: smaller;
+			margin-top: 30px;
+		  }
+        }
+        
+        /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    /* footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    } */
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+	</style>
+
+</head>
+
+<body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
+
+
+	<nav class="navbar main-nav navbar-expand-lg p-0">
+		<div class="container">
+			<a class="navbar-brand" href="index.html"><img height="100" src="images/logo.png" alt="logo"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="ti-menu"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item dropdown active dropdown-slide">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item dropdown dropdown-slide">
+						<a class="nav-link" href="https://www.tel-tec.com/contact" data-toggle="dropdown">Commercial
+							<span><i class="ti-angle-down"></i></span>
+						</a>
+						<!-- Dropdown list -->
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="https://www.tel-tec.com/contact">Education</a>
+							<a class="dropdown-item" href="https://www.tel-tec.com/contact">Healthcare</a>
+							<a class="dropdown-item" href="https://www.tel-tec.com/contact">Energy</a>
+							<a class="dropdown-item" href="https://www.tel-tec.com/contact">Agriculture</a>
+							<a class="dropdown-item" href="https://www.tel-tec.com/contact">DIY</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.tel-tec.com/contact">Residential</a>
+					</li>
+					<li class="nav-item dropdown dropdown-slide">
+						<a class="nav-link" href="https://www.tel-tec.com/contact" data-toggle="dropdown">Monitoring
+							<span><i class="ti-angle-down"></i></span>
+						</a>
+						<!-- Dropdown list -->
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="https://www.tel-tec.com/contact">Residential</a>
+							<a class="dropdown-item" href="https://www.tel-tec.com/contact">Commercial</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.tel-tec.com/contact">Government</a>
+					</li>
+					<li class="nav-item dropdown dropdown-slide">
+                        <a class="nav-link" href="https://www.tel-tec.com/contact" data-toggle="dropdown">Contact Us
+                            <span><i class="ti-angle-down"></i></span>
+                        </a>
+                        <!-- Dropdown list -->
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="https://www.tel-tec.com/contact">Contact Us</a>
+                            <a class="dropdown-item" href="about-us.html">About Us</a>
+                        </div>
+                    </li>
+				</ul>
+
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item dropdown dropdown-slide">
+						<a class="nav-link" href="https://www.tel-tec.com/myaccount/" style="font-size: 16px;">My Account</a>
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+
+		
+		<!-- <div class="col-lg-12" style="text-align: center;">
+			<p><bold>Call us:</bold> 818-923-2629</p>
+			<h3 style="font-weight: 700;">Covid-19 Pandemic Best Practices</h3>
+		</div> -->
+
+		<!-- center side end -->
+		<div class="col-12 text-center col-md-4 top-row-right pt-2 social">
+			<span class="d-block d-lg-none phone-section">Call Us: <a href="tel:661-397-5511">661-397-5511</a></span>
+			<ul class="pl-0" style="
+			list-style: none;
+			display: flex;
+			justify-content: center;
+		">
+				<li>
+					<a href="https://www.linkedin.com/company/tel-tec-security-systems-inc"><i class="fab fa-linkedin"></i></a>
+				</li>
+				<li>
+					<a href=""><i class="fas fa-rss-square"></i></a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/channel/UCcUCiKVfGnmZckFtEZKxvJQ"><i class="fab fa-youtube"></i></a>
+				</li>
+				<li>
+					<a href="https://www.facebook.com/teltec"><i class="fab fa-facebook-square"></i></a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/teltecsecurityinc/"><i class="fab fa-instagram"></i></a>
+				</li>	
+			</ul>
+		</div>
+
+		<div class="col-lg-12" style="text-align: center;">
+			<a href="covid-19.html"><h3 style="font-weight: 400; font-size: small;">Covid-19 Pandemic Best Practices</h3></a>
+		</div>
+
+
+	</nav>
+	<!--==================================
+=            Hero Section            =
+===================================-->
+<nav class="navbar main-nav navbar-expand-lg p-0">
+	<div class="container">
+		<a class="navbar-brand" href="index.html"><img height="100" src="images\Tel-Tec Logo v2016-web.png" alt="logo"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+			aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="ti-menu"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item dropdown dropdown-slide">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item dropdown dropdown-slide">
+					<a class="nav-link" href="https://www.tel-tec.com/contact" data-toggle="dropdown">Commercial
+						<span><i class="ti-angle-down"></i></span>
+					</a>
+					<!-- Dropdown list -->
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="https://www.tel-tec.com/contact">Education</a>
+						<a class="dropdown-item" href="https://www.tel-tec.com/contact">Healthcare</a>
+						<a class="dropdown-item" href="https://www.tel-tec.com/contact">Energy</a>
+						<a class="dropdown-item" href="https://www.tel-tec.com/contact">Agriculture</a>
+						<a class="dropdown-item" href="https://www.tel-tec.com/contact">DIY</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://www.tel-tec.com/contact">Residential</a>
+				</li>
+				<li class="nav-item dropdown dropdown-slide">
+					<a class="nav-link" href="https://www.tel-tec.com/contact" data-toggle="dropdown">Monitoring
+						<span><i class="ti-angle-down"></i></span>
+					</a>
+					<!-- Dropdown list -->
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="https://www.tel-tec.com/contact">Residential</a>
+						<a class="dropdown-item" href="https://www.tel-tec.com/contact">Commercial</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://www.tel-tec.com/contact">Government</a>
+				</li>
+				<li class="nav-item dropdown active dropdown-slide">
+					<a class="nav-link" href="https://www.tel-tec.com/contact" data-toggle="dropdown">Contact Us
+						<span><i class="ti-angle-down"></i></span>
+					</a>
+					<!-- Dropdown list -->
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="https://www.tel-tec.com/contact">Contact Us</a>
+						<a class="dropdown-item" href="about-us.html">About Us</a>
+					</div>
+				</li>
+			</ul>
+
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item dropdown dropdown-slide">
+					<a class="nav-link" href="https://www.tel-tec.com/myaccount/" style="font-size: 16px;">My Account</a>
+				</li>
+			</ul>
+		</div>
+		
+	</div>
+</nav>
+
+	<!--==================================
+=            Hero Section            =
+===================================-->
+
+	<section style="margin-top: 70px;" class="banner">
+		<div class="container-fluid">
+            <div class="row generic">
+              <div class="col-sm-4 side-nav">
+                  <div class="well well-lg">
+					  <h4 class="side-bar">Know Your Options</h4>
+                      <p><b>LIMITING ACCESS TO CONTOLLED AREAS</b></p>
+                      <p><b>Insuring compliance with privacy and safety policies!</b></p>
+                      <p>There are some areas of your facility where patients and visitors are not allowed. Different types of access are required for pharmacy areas, special patient areas, physician lounges, chart rooms and other areas where medical records are kept. Let us help you comply with privacy and safety policies by designing a system to meet your needs.
+					  </p>
+                  </div>
+                <!-- <h4>John's Blog</h4>
+                <ul class="nav nav-pills nav-stacked">
+                  <li class="active"><a href="#section1">Home</a></li>
+                  <li><a href="#section2">Friends</a></li>
+                  <li><a href="#section3">Family</a></li>
+                  <li><a href="#section3">Photos</a></li>
+                </ul><br>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search Blog..">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">
+                      <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                  </span>
+                </div> -->
+              </div>
+          
+              <div class="col-sm-8">
+                <h4><small>Health Care Facilities</small></h4>
+               
+                <!-- <h2>I Love Food</h2> -->
+                <!-- <h5><span class="glyphicon glyphicon-time"></span> Post by Jane Dane, Sep 27, 2015.</h5>
+                <h5><span class="label label-danger">Food</span> <span class="label label-primary">Ipsum</span></h5><br> -->
+                <p>Tel-Tec Security provides full-service, complete security systems and monitoring for health care facilities. From specialized keyless entry systems to video surveillance and off-site monitoring, we have the technology and expertise to design and install a system that meets your needs.</p>
+                <p>Ask about our keyless entry systems linked to video technology to give you a visual record of entry/exit.</p>
+                <hr>
+                
+                <h4><small>System Features and Options</small></h4>
+                <!-- <h2>Officially Blogging</h2> -->
+                <!-- <h5><span class="glyphicon glyphicon-time"></span> Post by John Doe, Sep 24, 2015.</h5>
+                <h5><span class="label label-success">Lorem</span></h5><br> -->
+                <p>Tel-Tec Security's custom-designed systems offer the best solution to meet your unique needs.
+                </p>
+                <p>All of our systems offer 24-hour monitoring, a vital link to local law enforcement and fire departments.</p>
+                <ul>
+					<li>Fire Protection Systems</li>
+                    <li>Smoke and heat detectors</li>
+                    <li>Keyless entry systems</li>
+                    <li>Network/ video surveillance</li>
+                    <li>Motion detectors</li>
+                    <li>Internet/ DSL - monitoring via wireless technology</li>
+                    <li>Two to four year extended warranty</li>
+                    <li>Infant monitoring and tracking/ bar-coding systems </li>
+				</ul>
+                <hr>
+
+				<h4><small>Systems linking keyless entry to video recording - a visual record! </small></h4>
+				<p>Because each of your employees has a different range of access, it's important to customize entry systems and be able to quickly adapt to changing assignments, needs and conditions. Ask us about the latest in entry technology. We can design a system to meet your specific needs.
+				</p>
+				
+				<hr>
+
+				<h4><small>Call us for a free needs analysis.</small></h4>
+				<h3>Who is protecting you?</h3>
+
+				<div class="text-center">
+					<h2>Tel-Tec Security Systems</h2>
+					<p>Protecting people and their assets since 1982</p>
+				</div>
+
+                
+              </div>
+            </div>
+          </div>
+
+	</section>
+
+	<!--====  End of Hero Section  ====-->
+
+	<!--==============================
+=            Services            =
+===============================-->
+
+<footer class="page-footer font-small blue pt-4">
+
+	<!-- Footer Links -->
+	<div class="container-fluid text-center text-md-left footer-container">
+  
+	  <!-- Grid row -->
+	  <div class="row">
+  
+		<!-- Grid column -->
+		
+		<!-- Grid column -->
+  
+		<hr class="clearfix w-100 d-md-none pb-3">
+  
+		<!-- Grid column -->
+		<div class="col-md-3 mb-md-0 mb-3">
+  
+		  <!-- Links -->
+		  <!-- <h5 class="text-uppercase">Links</h5> -->
+  
+		  <ul class="list-unstyled footer-link">
+			<li>
+			  <a href="#!">Careers</a>
+			</li>
+			<li>
+			  <a href="#!">Site map</a>
+			</li>
+			<li>
+			  <a href="#!">Privacy</a>
+			</li>
+			<!-- <li>
+			  <a href="#!">Link 4</a>
+			</li> -->
+		  </ul>
+  
+		</div>
+		<!-- Grid column -->
+  
+		<!-- Grid column -->
+		<div class="col-md-3 mb-md-0 mb-3">
+  
+		  <!-- Links -->
+		  <!-- <h5 class="text-uppercase">Links</h5> -->
+  
+		  <ul class="list-unstyled footer-link">
+			<li>
+			  <a href="#!">Terms of Use</a>
+			</li>
+			<li>
+			  <a href="#!">Contact us</a>
+			</li>
+			<li>
+			  <a href="#!">Financing</a>
+			</li>
+			<!-- <li>
+			  <a href="#!">Link 4</a>
+			</li> -->
+		  </ul>
+  
+		</div>
+		<!-- Grid column -->
+  
+		<div class="col-md-6 mt-md-0 mt-3">
+  
+			<!-- Content -->
+			<h5 class="text-uppercase">Need Help?</h5>
+			<p>We're available 24/7 at 1-661-397-5511</p>
+  
+			<div class="container">
+			<div class="row footer-icon">
+			  <div class="col-lg-3 col-6 text-center mb-3">
+				  <img src="images/home/cms.png" alt="">
+			  </div>
+  
+			  <div class="col-lg-3 col-6 text-center mb-3">
+				  <img src="images/home/cmas.png" alt="">
+			  </div>
+  
+			  <div class="col-lg-3 col-6 text-center mb-3">
+				  <img src="images/home/gsa.png" alt="">
+			  </div>
+  
+			  <div class="col-lg-3 col-6 text-center mb-3">
+				  <a href="https://www.bbb.org/us/ca/bakersfield/profile/burglar-alarm-systems/tel-tec-security-systems-inc-1066-80000799"><img src="images/home/bbb.png" alt=""></a>
+			  </div>
+		  </div>
+		  </div>
+  
+  
+	
+		  </div>
+
+
+
+	  </div>
+	  <!-- Grid row -->
+  
+	</div>
+	<!-- Footer Links -->
+  
+	<!-- Copyright -->
+	<div class="footer-copyright text-center py-3">© 2020 Copyright: Tel-Tec Security Systems, Inc. All Rights Reserved
+	  <!-- <a href="https://mdbootstrap.com/"> MDBootstrap.com</a> -->
+	</div>
+	<!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+	<!-- Footer End-->
+	
+
+	
+
+	<!-- JAVASCRIPTS -->
+	<script src="plugins/jquery/jquery.js"></script>
+	<script src="plugins/popper/popper.min.js"></script>
+	<script src="plugins/bootstrap/bootstrap.min.js"></script>
+	<script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+	<script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+	<script src="plugins/syotimer/jquery.syotimer.min.js"></script>
+	<script src="plugins/aos/aos.js"></script>
+	<!-- google map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgeuuDfRlweIs7D6uo4wdIHVvJ0LonQ6g"></script>
+	<script src="plugins/google-map/gmap.js"></script>
+
+	<script src="js/custom.js"></script>
+</body>
+
+</html>
